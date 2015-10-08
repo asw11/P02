@@ -1,5 +1,7 @@
+
+
 body {
-  font-family: Kokonor;
+  font-family: 'News Cycle', sans-serif;
   padding: 0em 11em 5em 11em;
 }
 
@@ -15,37 +17,37 @@ section code {
 }
 
 h1 {
-  font-family: 'Kokonor‘,regular;
+  font-family: 'News Cycle', sans-serif;
   font-size: 200%;
 }
 
 h1.logo {
   letter-spacing:0.7em;
   font-size: 230%;
-  color: #996633;
-  text-shadow: 0 0 0.2em #fff;
+  color: #98cec7; /*blue*/
+  /*text-shadow: 0 0 0.2em #fff;*/
 }
 
 h2 {
-  font-family: 'Kokonor‘,regular;
+  font-family: 'News Cycle', sans-serif;
   font-size: 170%;
 }
 
 h3 {
-  font-family: 'Kokonor‘,regular;
+  font-family: 'News Cycle', sans-serif;
   font-size:120%;
 }
 
 p {
-  font-family: 'Kokonor', regular;
+  font-family: 'News Cycle', sans-serif;
   font-size: 110%;
   line-height: 130%;
 }
 
 #header {
-  background-color:#F0F8FF;
+  background-color: #3a3d40; /*Main Bar Grey*/ 
   text-align:center;
-  color: #BFBE00;
+  color: #FFFFFF; /*subline white*/
   padding: 1.2em;
   font-size: 80%;
   letter-spacing: 0.75em;
@@ -60,7 +62,7 @@ p {
   margin: 0;
   padding: 0;
   text-align: justify;
-  background-color: #F0F8FF;
+  background-color: #98cec7;
 }
 
 #navbar li {
@@ -68,7 +70,7 @@ p {
   text-decoration: none;
   text-align:center;
   font-size: 90%;
-  background-color: #F0F8FF, 60%;
+  background-color: #98cec7, 60%;
   min-width: 16.43%;
 }
 
@@ -80,11 +82,11 @@ p {
   display: inline-block;
   padding: 1rem 0;
   width: 100%;
-  font-family: 'Kokonor', regular
+  font-family: 'News Cycle', sans-serif;
 }
 
 #navbar li a:link, #navbar li a:visited {
-  color: #996633;
+  color: #87614a;
   text-align: center;
   text-decoration: none;
 }
@@ -115,8 +117,8 @@ div.circle1 { display:inline-block; width:100px; height:100px; border-radius:50p
         a.button {
           display: inline-block;
           padding: 0.7em 1.9em;
-          color: #000;
-          background-color: #C6E4C6;
+          color: #FFF;
+          background-color: #98cec7;
           font-size: 14px;
           letter-spacing: 0.1em;
           border-radius: 1em;
@@ -125,7 +127,7 @@ div.circle1 { display:inline-block; width:100px; height:100px; border-radius:50p
           transition: background-color 0.5s ease-out;
         }
         a.button:hover, a.button:focus {
-          background-color: #FFF8F2;
+          background-color: #3a3d40;
         }
 
         /*Form Layout*/
@@ -158,18 +160,18 @@ div.circle1 { display:inline-block; width:100px; height:100px; border-radius:50p
           height:30px;
           margin-left: 17em;
           margin-top: 1em;
-          background:#FBDBDB;
-          color:#322A2A;
+          background: #98cec7;
+          color:#FFF;
           border-radius: 15px;
           border: none;
-          font-family: ''Kokonor‘,regular;
+          font-family: 'News Cycle', sans-serif;
           font-size: 13px;
           -webkit-transition: background-color 0.5s ease-out;
           transition: background-color 0.5s ease-out;
         }
 
         input.button:hover {
-          background:#F9C7C7;
+          background:#3a3d40;
         }
 
         textarea:focus, input:focus {
